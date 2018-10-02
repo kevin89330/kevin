@@ -1,0 +1,27 @@
+body{
+    border: 20px solid #bdc3c3;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.quote{
+    border-left: 5px solid #bdc3c3;
+    padding-left: 5px;
+}
+
+.date{
+    color: #5096d3;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+        
+}
+
+hr{
+    border-top: 1px solid rgba(0,0,0,0,1);
+    border-bottom: 1px solid rgba(255,255,255,01);
+}
