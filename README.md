@@ -1,10 +1,10 @@
 # kevin-static-wedpage
 
 ##  Week 1
-* intro.html
+* [intro.html](http://127.0.0.1:1354/w01/intro.html)
 
 ## Week 2
-* table.html
+* {table.html
 * myclass.html
 
 ## Week 3
@@ -18,5 +18,5 @@
 ## Week 5
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMDg3MTEwXX0=
+eyJoaXN0b3J5IjpbMTA4NzE3MTQ2NSw0MjEwODcxMTBdfQ==
 -->
