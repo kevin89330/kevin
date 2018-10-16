@@ -5,7 +5,7 @@
 
 ## Week 2
 * [table.html](http://127.0.0.1:1354/w02/table.html)
-* myclass.html
+
 
 ## Week 3
 * [tku60.html](http://127.0.0.1:1354/w03/images/tku60.html)
@@ -13,10 +13,10 @@
 
 ## Week 4
 * [ttt.html](http://127.0.0.1:1354/w04/ttt.html)  ttt.css
-* blog.css  [blog.html](
-* profile.html
+* blog.css  [blog.html](http://127.0.0.1:1354/w04/blog.html)
+* [profile.html](http://127.0.0.1:1354/w04/profile.html)
 ## Week 5
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzI5NjYyNCw0MjEwODcxMTBdfQ==
+eyJoaXN0b3J5IjpbMTU3MDYzNTI4Miw0MjEwODcxMTBdfQ==
 -->
