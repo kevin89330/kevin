@@ -12,11 +12,11 @@
 * [div.html](http://127.0.0.1:1354/w03/div/div.html)
 
 ## Week 4
-* ttt.html  ttt.css
-* blog.css  blog.html
+* [ttt.html](http://127.0.0.1:1354/w04/blog.html)  ttt.css
+* blog.css  [blog.html](
 * profile.html
 ## Week 5
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYwNTk2NjEsNDIxMDg3MTEwXX0=
+eyJoaXN0b3J5IjpbLTc0MDMyNDAzNCw0MjEwODcxMTBdfQ==
 -->
