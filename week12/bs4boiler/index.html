@@ -64,55 +64,222 @@
 
   <!-- HEADER  -->
   <header class="bg-primary text-white py-2">
-  <div class="container"> 
-    <div class="row">
-    <div class="col-md-3">
-<a href="#" class="btn btn-primary">
-<h1><i class="fas fa-cog"></i> Dashboard</h1>
-</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#" class="btn btn-primary">
+            <h1><i class="fas fa-cog"></i> Dashboard</h1>
+          </a>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
- 
+
   </header>
 
   <!-- ACTIONS -->
-<section class="bg-light py-4">
-<div class="container">
-<div class="row">
-  <div class="col-md-3">
-    <a href="#" class="btn btn-primary btn-block">
-    <i class="fas fa-plus"></i> Add Post
-  </a>
-  </div>
-  <div class="col-md-3">
-      <a href="#" class="btn btn-success btn-block">
-      <i class="fas fa-plus"></i> Add Category
-    </a>
-    </div>
-    <div class="col-md-3">
-        <a href="#" class="btn btn-warning btn-block">
-        <i class="fas fa-plus"></i> Add User
-      </a>
+  <section class="bg-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#addpostModal">
+            <i class="fas fa-plus"></i> Add Post
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#addcategoryModal">
+            <i class="fas fa-plus"></i> Add Category
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="btn btn-warning btn-block" data-toggle="modal" data-target="#adduserModal">
+            <i class="fas fa-plus"></i> Add User
+          </a>
+        </div>
       </div>
-  </div>
-</div>
-</section>
+    </div>
+  </section>
   <!-- POSTS -->
-
+  <div class="container mb-3 mt-4">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="card">
+          <div class="card-hearder">
+            <h4>Last Post</h4>
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center">
+          <div class="card-body btn-primary">
+            <h4>Post</h4>
+            <h4 class="display"><i class="fas fa-pencil-alt"></i> 6</h4>
+            <a href="#" class="btn btn-outline-light btn-sm">view</a>
+          </div>
+        </div>
+        <div class="card text-center mt-2">
+          <div class="card-body btn-success">
+            <h4>Categories</h4>
+            <h4 class="display"><i class="fas fa-folder"></i> 4</h4>
+            <a href="#" class="btn btn-outline-light btn-sm">view</a>
+          </div>
+        </div>
+        <div class="card text-center mt-2">
+          <div class="card-body btn-warning">
+            <h4>Users</h4>
+            <h4 class="display"><i class="fas fa-users"></i> 4</h4>
+            <a href="#" class="btn btn-outline-light  btn-sm">view</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- FOOTER -->
-
   <!-- MODALS -->
+  <!--adduser-->
+  <div class="modal" id="adduserModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-warning">
+          <h5 class="modal-title text-white">Add User
+          </h5>
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" id="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="name">Email</label>
+            <input class="form-control" type="text" id="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="name">Password</label>
+            <input class="form-control" type="text" id="password" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="name">Confirm Password</label>
+            <input class="form-control" type="text" id="confirm password" placeholder="Confirm Password">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-dismiss="modal">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- addcategory -->
+  <div class="modal" id="addcategoryModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-success">
+          <h5 class="modal-title text-white">Add Category
+          </h5>
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="name">Title</label>
+            <input class="form-control" type="text" id="name" placeholder="Title">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-success text-white" data-dismiss="modal">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--addpost-->
+  <div class="modal" id="addpostModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-primary">
+          <h5 class="modal-title text-white">Add Post
+          </h5>
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="name">Title</label>
+            <input class="form-control" type="text" id="name" placeholder="Title">
+          </div>
+
+          <div class="form-group">
+            <label for="gender">Category</label>
+            <select class="form-control" id="Category">
+              <option>Web Development</option>
+              <option>Tech Gadgets</option>
+              <option>Business</option>
+              <option>Health & Wellness</option>
+            </select>
+          </div>
+<div class="custom-file">
+  <lable>Upload Image</lable>
+          <div class="custom-file">
+            <input type="file" id="myfile" class="custom-file-input">
+            <label class="custom-file-label" for="myfile">Choose file</label>
+            <small class="form-text text-muted" id="fileHelp">Max 3mb size</small>
+          </div>
+          <br>
+        </div>
+          <div class="form-group">
+            <label for="message">Body</label>
+            <textarea name="editor1" class="form-control" id="message" rows="3"></textarea>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-dismiss="modal">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-
+    <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+    CKEDITOR.replace( 'editor1' );
   </script>
 </body>
 
